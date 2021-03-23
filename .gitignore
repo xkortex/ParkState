@@ -1,2 +1,98 @@
 *.class
 *.log
+
+# sync junk
+*.retry
+*.sync-conflict*
+volumes
+
+
+# Byte-compiled / optimized / DLL files
+**/__pycache__
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+node_modules
+*.whl
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+dist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+pip-wheel-metadata/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# virtual env
+venv
+.virtualenv
+
+# file dependencies
+deps
+
+
+# build tool junk
+cmake-build-debug
+.catkin_tools
+.cmake
+.config
+build
+devel
+logs
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+*.pyc
+.python_history
+
+# IDE
+**/.idea
+**/.vscode
+**/cmake-build-*
+**/.ipython
+**/.DS_Store
+
+.pydevproject
+.project
+.secrets
+.netrc
